@@ -8,6 +8,10 @@
     </a>
   </h3>
   
+  <p *ngIf = "product.disccount">
+    Descuento : {{product.disccount}}
+  </p>
+
   <p *ngIf = "product.price">
     Precio : {{product.price | currency}}
   </p>
